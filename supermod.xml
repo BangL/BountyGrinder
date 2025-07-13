@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<mod name="BountyGrinder"
+    description="Let's you freely grind the current daily bounty, even if already completed."
+    author="BangL"
+    version="1.1"
+    color="60 60 60">
+
+    <updates>
+        <update provider="modworkshop" identifier="52537"/>
+    </updates>
+
+    <localization directory="loc">
+        <loc file="english.json" language="english" />
+        <loc file="german.json" language="german" />
+    </localization>
+
+    <hooks>
+        <post script_path="RaidJobManager.lua" hook_id="lib/managers/raidjobmanager" />
+        <post script_path="RaidGUIControlListItemRaids.lua"
+            hook_id="lib/managers/menu/raid_menu/controls/raidguicontrollistitemraids" />
+    </hooks>
+</mod>
