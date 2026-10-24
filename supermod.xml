@@ -2,11 +2,13 @@
 <mod name="BountyGrinder"
     description="Let's you freely grind the current daily bounty, even if already completed."
     author="BangL"
-    version="1.1"
+    version="1.2"
     color="60 60 60">
 
     <updates>
-        <update provider="modworkshop" identifier="52537"/>
+        <update identifier="bountygrinder">
+            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/bountygrinder.json"/>
+        </update>
     </updates>
 
     <localization directory="loc">
