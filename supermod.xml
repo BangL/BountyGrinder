@@ -7,7 +7,7 @@
 
     <updates>
         <update identifier="bountygrinder">
-            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/bountygrinder.json"/>
+            <host meta="https://raw.githubusercontent.com/BangL/raid-mods-meta/main/bountygrinder.json" patchnotes="https://github.com/BangL/BountyGrinder/blob/master/CHANGELOG.md"/>
         </update>
     </updates>
 
